@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const FormInfoSchema = new mongoose.Schema(
   {
-    wallet_address: {
+    wallet: {
       type: String,
       required: true,
     },
